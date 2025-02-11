@@ -1,0 +1,8 @@
+COHPstartEnergy  -10
+COHPendEnergy	  6
+usebasisset pbeVaspFit2015
+basisfunctions Pt 5d 6s
+basisfunctions Au 5d 6s
+gaussianSmearingWidth 0.0
+
+cohpbetween atom 1 and atom 2 orbitalWise

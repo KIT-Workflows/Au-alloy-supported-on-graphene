@@ -1,0 +1,17 @@
+COHPstartEnergy  -10
+COHPendEnergy	 10
+usebasisset pbeVaspFit2015
+basisfunctions C 2s 2p
+basisfunctions Cu 3d 4s
+
+
+! Cu-Cu 
+cohpBetween atom 73 atom 74  orbitalWise
+
+! Cu-C
+cohpBetween atom 73 atom 30 orbitalWise
+cohpBetween atom 73 atom 15 orbitalWise
+
+! C-C
+cohpBetween atom 15 atom 30 orbitalWise
+

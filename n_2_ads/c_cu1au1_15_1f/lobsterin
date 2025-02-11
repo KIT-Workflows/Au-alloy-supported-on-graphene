@@ -1,0 +1,20 @@
+COHPstartEnergy  -10
+COHPendEnergy	 10
+usebasisset pbeVaspFit2015
+basisfunctions C 2s 2p
+basisfunctions Cu 3d 4s
+basisfunctions Au 5d 6s
+gaussianSmearingWidth 0.0
+
+
+! Au-Cu 
+cohpBetween atom 73 atom 74  orbitalWise
+
+! Au-C
+cohpBetween atom 73 atom 30 orbitalWise
+cohpBetween atom 73 atom 29 orbitalWise
+
+! C-C
+cohpBetween atom 29 atom 30 orbitalWise
+
+

@@ -1,0 +1,16 @@
+COHPstartEnergy  -10
+COHPendEnergy	 10
+usebasisset pbeVaspFit2015
+basisfunctions C 2s 2p
+basisfunctions Ag 4d 5s
+basisfunctions Au 5d 6s
+
+
+! Ag-Au 
+cohpBetween atom 73 atom 74  orbitalWise
+
+! Ag-C
+cohpBetween atom 73 atom 30 orbitalWise
+
+
+
