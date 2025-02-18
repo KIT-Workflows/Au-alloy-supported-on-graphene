@@ -7,6 +7,6 @@ Workflow-driven approach for stability and catalytic modulation in the evolution
 
 
 
-The `converged_structures` folder contains the most stable configurations, converged in the `CONTCAR` file format. It also includes the `INCAR` file used for geometry optimization and the `OUTCAR` file containing only the final energy obtained from self-consistent field (SCF) minimization. Additionally, for evaluating covalent bond contributions through [Crystal Orbital Hamilton Population (COHP)](http://www.cohp.de/) analysis analysis, the `lobsterin` input files used are provided.
+The `converged_structures` folder contains the most stable configurations, converged in the `CONTCAR` file format. It also includes the `INCAR` file used for geometry optimization and the `OUTCAR` file containing only the final energy obtained from self-consistent field (SCF) minimization. Additionally, for evaluating covalent bond contributions through [Crystal Orbital Hamilton Population (COHP)](http://www.cohp.de/) analysis, the `lobsterin` input files used are provided.
 
 
