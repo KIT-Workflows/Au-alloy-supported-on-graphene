@@ -1,6 +1,5 @@
 # Au-alloy-supported-on-graphene
-Workflow-driven for stability and catalytic modulation in the evolution of single-atom catalysts to Au–alloy clusters supported on graphene applied in [https://doi.org/10.1038/s41598-025-85891-6](https://doi.org/10.1038/s41598-025-85891-6)
-
+Workflow-driven approach for stability and catalytic modulation in the evolution of single-atom catalysts to Au-alloy clusters supported on graphene, as applied in [https://doi.org/10.1038/s41598-025-85891-6](https://doi.org/10.1038/s41598-025-85891-6).
 <img title="Workflow" src="workflow.png">
 
 # Colab
@@ -8,6 +7,6 @@ Workflow-driven for stability and catalytic modulation in the evolution of singl
 
 
 
-The `converged_structures` folder contains the most stable configurations, converged in the `CONTCAR` file format. It also includes the `INCAR` file used for geometry optimization and the `OUTCAR` file containing only the final energy obtained from SCF minimization. Additionally, `lobsterin` input files used for COHP calculations are provided.  
+The `converged_structures` folder contains the most stable configurations, converged in the `CONTCAR` file format. It also includes the `INCAR` file used for geometry optimization and the `OUTCAR` file containing only the final energy obtained from self-consistent field (SCF) minimization. Additionally, for evaluating covalent bond contributions through [Crystal Orbital Hamilton Population (COHP)](http://www.cohp.de/) analysis analysis, the `lobsterin` input files used are provided.
 
 
