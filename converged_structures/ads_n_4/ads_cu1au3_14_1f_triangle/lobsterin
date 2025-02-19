@@ -1,0 +1,13 @@
+COHPstartEnergy  -10
+COHPendEnergy     10
+usebasisset pbeVaspFit2015
+basisfunctions C 2s 2p
+basisfunctions Cu 3d 4s
+basisfunctions Au 5d 6s
+gaussianSmearingWidth 0.0
+
+cohpGenerator from 1.4 to 2.6   type C  type Cu orbitalWise
+cohpGenerator from 1.3 to 3.0   type Cu type Cu orbitalWise
+cohpGenerator from 1.3 to 3.0   type Au type Cu orbitalWise
+cohpGenerator from 1.3 to 3.0   type Au type Au orbitalWise
+
