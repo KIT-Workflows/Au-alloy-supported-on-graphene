@@ -8,9 +8,9 @@ Workflow-driven approach for stability and catalytic modulation in the evolution
 This notebook calculates and provides a preview of the adsorption energy (*E<sub>ads</sub>*) and excess energy (*E<sub>exc</sub>*) in function of composition for clusters in both vacuum (vac) and adsorbed on graphene (ads) conditions. Users can apply it to the data generated in this work or their own datasets, as long as the output folders are named accordingly the `energy.py` requirement. Feel free to modify the code as needed.
 
 # Output File Arrangement
-All calculations were performed with Vienna *Ab initio* Simulation Package (VASP), in witch the files follows its syntaxe. The `converged_structures` folder contains the most stable configurations, written out in the `CONTCAR` file format. It also includes the `INCAR` file used for geometry optimization and the `OUTCAR` file containing only the final energy obtained from self-consistent field (SCF) minimization. Additionally, for evaluating covalent bond contributions through [Crystal Orbital Hamilton Population (COHP)](http://www.cohp.de/) analysis, the `lobsterin` input files used are also provided.
+All calculations were performed with Vienna *Ab initio* Simulation Package (VASP), in witch the files follows its syntax. The `converged_structures` folder contains the most stable configurations, written out in the `CONTCAR` file format. It also includes the `INCAR` file used for geometry optimization and the `OUTCAR` file containing only the final energy obtained from self-consistent field (SCF) minimization. Additionally, for evaluating covalent bond contributions through [Crystal Orbital Hamilton Population (COHP)](http://www.cohp.de/) analysis, the `lobsterin` input files used are also provided.
 
-A calculation folder is named as `[condition]_[cluster]_[isomer]_[configuration]`, highlighting key aspects of the system. This structure is based organization of `converged_structures`, which follows:\\
+A calculation folder is named as `[condition]_[cluster]_[isomer]_[configuration]`, highlighting key aspects of the system. This structure is based organization of `converged_structures`, which follows:
 
 **condition:** `vac` or `ads`&rarr; **atomicity:** `n_1` ... `n_4` &rarr; **composition:** `ni4`... `ni2au2`...`au4` &rarr; **isomers:** `vac_ni2au2_16`.
 
