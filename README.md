@@ -16,8 +16,13 @@ A calculation folder is named as `[condition]_[cluster]_[isomer]_[configuration]
 
 For adsorbed conditions, the folder names also include the `configuration`, which indicates the number of contact points (fold) and the geometry, e.g., `ads_ni3au1_30_3f_tetrahedron` represents a tetrahedral cluster with three contact points.
 
+# Workflow
 
-
-
+## 1.  Mult-It Inputs
+## 2.  Mult-It Outputs
+## 3. UnpackMol Inputs
+## 4. UnpackMol Outputs
+## 5.  DFT-VASP Inputs
+## 5.  DFT-VASP Ouputs
 
 
