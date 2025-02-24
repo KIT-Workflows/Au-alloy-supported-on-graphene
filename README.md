@@ -10,7 +10,12 @@ This notebook calculates and provides a preview of the adsorption energy (*E<sub
 # Output File Arrangement
 All calculations were performed with Vienna *Ab initio* Simulation Package (VASP), in witch the files follows its syntaxe. The `converged_structures` folder contains the most stable configurations, written out in the `CONTCAR` file format. It also includes the `INCAR` file used for geometry optimization and the `OUTCAR` file containing only the final energy obtained from self-consistent field (SCF) minimization. Additionally, for evaluating covalent bond contributions through [Crystal Orbital Hamilton Population (COHP)](http://www.cohp.de/) analysis, the `lobsterin` input files used are also provided.
 
-A calculation fold is named as `[condition]_[cluster]_[isomer]_[configuration]` that brings the aspects of the system. It's due the `converged_structures`, that are organizad following  **condition:** `vac` or `ads`&rarr; **atomicity:** `n_1` ... `n_4` &rarr; **composition:** `ni4`... `ni2au2`...`au4` &rarr; **isomers:** `vac_ni2au2_16`. For ads conditions, the last folders that contening the calculation also have the `configuration` in its name, in which indicates the number of contact points (fold) and the geometry (e.g. `ads_ni3au1_30_3f_tetrahedron`, means a tetrahedron cluster with 3 contact point)
+A calculation folder is named as `[condition]_[cluster]_[isomer]_[configuration]`, highlighting key aspects of the system. This structure is based organization of `converged_structures`, which follows:\\
+
+**condition:** `vac` or `ads`&rarr; **atomicity:** `n_1` ... `n_4` &rarr; **composition:** `ni4`... `ni2au2`...`au4` &rarr; **isomers:** `vac_ni2au2_16`.
+
+For adsorbed conditions, the folder names also include the `configuration`, which indicates the number of contact points (fold) and the geometry, e.g., `ads_ni3au1_30_3f_tetrahedron` represents a tetrahedral cluster with three contact points.
+
 
 
 
