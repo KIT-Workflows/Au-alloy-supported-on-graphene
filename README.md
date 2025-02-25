@@ -54,6 +54,28 @@ Input:
 Ouput:
 - `Table-dict.yml` containing the variables defined in the `Search_Parameters`.
 
+Citing
+   ------
+
+   If you would like to cite the WanTiBEXOS package in a paper or presentation, the
+   following references can be used:
+
+- BibTeX::
+        
+    @article{DaSilva2025,
+        title = {Workflow-driven catalytic modulation from single-atom catalysts to Au–alloy clusters on graphene},
+        volume = {15},
+        ISSN = {2045-2322},
+        url = {http://dx.doi.org/10.1038/s41598-025-85891-6},
+        DOI = {10.1038/s41598-025-85891-6},
+        number = {1},
+        journal = {Scientific Reports},
+        publisher = {Springer Science and Business Media LLC},
+        author = {Da Silva,  Gabriel Reynald and Cerqueira Felix,  João Paulo and R\^ego,  Celso R. C. and Dias,  Alexandre C. and de O. Bastos,  Carlos Maciel and Piotrowski,  Maurício J. and Guedes-Sobrinho,  Diego},
+        year = {2025},
+        month = jan
+    }
+
 ## License & Copyright
   Developer: Celso Ricardo C. Rêgo, 
   Multiscale Materials Modelling and Virtual Design,
@@ -61,3 +83,5 @@ Ouput:
   https://www.int.kit.edu/wenzel.php.
 
 Licensed under the [KIT License](LICENSE).
+
+
