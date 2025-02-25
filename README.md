@@ -54,13 +54,11 @@ Input:
 Ouput:
 - `Table-dict.yml` containing the variables defined in the `Search_Parameters`.
 
-Citing
-   ------
+# Citing
 
-   If you would like to cite the WanTiBEXOS package in a paper or presentation, the
-   following references can be used:
+If you would like to cite this work, the following references can be used:
 
-- BibTeX::
+- BibTeX:
 ```
     @article{DaSilva_2025,
         title = {Workflow-driven catalytic modulation from single-atom catalysts to Au–alloy clusters on graphene},
