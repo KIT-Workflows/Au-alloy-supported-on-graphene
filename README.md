@@ -3,6 +3,7 @@ Workflow-driven approach for stability and catalytic modulation in the evolution
 
 
 <img title="Workflow" src="workflow.png">
+
 **Figure 1:** The SimStack workflow framework is used to manage the simulation protocol for calculating the energetic properties and electronic structure of unary and alloy clusters in both gas-phase and adsorbed conditions. The workflow involves several components, each serving a specific function in the process: Mult-It: manages and organizes data lists, UnpackMol: prepares configuration files for DFT calculations, DFT-VASP: carries out Density Functional Theory calculations, DB-Generator: compiles the results into a `yml` file. Additionally, the workflow pushes the `yml` file to a GitHub repository to link the generated data with a Colab notebook, where the results of the simulations are visualized.
 
 
@@ -31,7 +32,32 @@ Output:
 - `file` command name files on the top of the AdvancedFor loop.
 
 ## 2. UnpackMol WaNo
+Input:
+- s
 
+Ouput:
+- `POSCAR` files needed to DFT-VASP WaNo.
+  
 ## 3. DFT-VASP WaNo
-## 4. DB-Generator
+Input:
+- **INCAR tab**: one sets all `INCAR` flags by selecting the popup window options.
+- **KPOINTS tab**: one defines two types of KPOINTS, `Kpoints_length` and `Kpoints_Monkhorst.`
+- **Analysis tab**: Aimed to compute charge analysis and density of states (DOS).
 
+Ouput:
+- `OUTCAR` file.
+## 4. DB-Generator
+Input:
+- **Imports tab**: `Search_in_File` variable should be set as `vasp_results.yml` and import this file using `AdvancedForEach/*/DFT-VASP/outputs/vasp_results.yml` command.
+- Search_Parameters: One sets variable to be search, as total energy and title.
+
+Ouput:
+- `Table-dict.yml` containing the variables defined in the `Search_Parameters`
+
+## License & Copyright
+  Developer: Celso Ricardo C. Rêgo, 
+  Multiscale Materials Modelling and Virtual Design,
+  Institute of Nanotechnology, Karlsruhe Institute of Technology
+  https://www.int.kit.edu/wenzel.php
+
+Licensed under the [KIT License](LICENSE).
