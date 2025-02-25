@@ -1,5 +1,5 @@
 # Au-alloy-supported-on-graphene
-Workflow-driven approach for stability and catalytic modulation in the evolution of single-atom catalysts to Au-alloy clusters supported on graphene, as applied in [https://doi.org/10.1038/s41598-025-85891-6](https://doi.org/10.1038/s41598-025-85891-6).
+Workflow-driven approach for stability and catalytic modulation in the evolution of single-atom catalysts to Au-alloy clusters supported on graphene, as applied in [our work](https://doi.org/10.1038/s41598-025-85891-6).
 <img title="Workflow" src="workflow.png">
 
 # Colab
