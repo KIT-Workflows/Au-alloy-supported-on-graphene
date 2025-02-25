@@ -1,6 +1,10 @@
 # Au-alloy-supported-on-graphene
 Workflow-driven approach for stability and catalytic modulation in the evolution of single-atom catalysts to Au-alloy clusters supported on graphene, as applied in [our work](https://doi.org/10.1038/s41598-025-85891-6).
+
+
 <img title="Workflow" src="workflow.png">
+**Figure 1:** The SimStack workflow framework is used to manage the simulation protocol for calculating the energetic properties and electronic structure of unary and alloy clusters in both gas-phase and adsorbed conditions. The workflow involves several components, each serving a specific function in the process: Mult-It: manages and organizes data lists, UnpackMol: prepares configuration files for DFT calculations, DFT-VASP: carries out Density Functional Theory calculations, DB-Generator: compiles the results into a `yml` file. Additionally, the workflow pushes the `yml` file to a GitHub repository to link the generated data with a Colab notebook, where the results of the simulations are visualized.
+
 
 # Colab
 * Colab notebook for data visualization [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1nlk0nvFGPDAAtO6J8oSc2dNsEmlUh2c0?usp=sharing)
@@ -16,11 +20,18 @@ A calculation folder is named as `[condition]_[cluster]_[isomer]_[configuration]
 
 For adsorbed conditions, the folder names also include the `configuration`, which indicates the number of contact points (fold) and the geometry, e.g., `ads_ni3au1_30_3f_tetrahedron` represents a tetrahedral cluster with three contact points.
 
-# Scientific workflow
+# Scientific Workflow
 Our data management was carried out through Workflow Active Nodes (WaNos) within the [SimStack](https://www.simstack.de/) framework, facilitating the efficient handling of a large number of calculations.
 
 ## 1.  Mult-It WaNo
-## 2. UnpackMol WaNo
-## 3. DFT-VASP WaNo
+Input:
+- Configure the path containing `.tar` file with `POSCAR` structures.
 
+Output:
+- `file` command name files on the top of the AdvancedFor loop.
+
+## 2. UnpackMol WaNo
+
+## 3. DFT-VASP WaNo
+## 4. DB-Generator
 
