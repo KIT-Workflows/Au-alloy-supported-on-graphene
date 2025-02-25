@@ -22,18 +22,18 @@ A calculation folder is named as `[condition]_[cluster]_[isomer]_[configuration]
 For adsorbed conditions, the folder names also include the `configuration`, which indicates the number of contact points (fold) and the geometry, e.g., `ads_ni3au1_30_3f_tetrahedron` represents a tetrahedral cluster with three contact points.
 
 # Scientific Workflow
-Our data management was carried out through Workflow Active Nodes (WaNos) within the [SimStack](https://www.simstack.de/) framework, facilitating the efficient handling of a large number of calculations.
+Our data management was carried out through Workflow Active Nodes (WaNos) within the [SimStack](https://www.simstack.de/) framework, facilitating the efficient handling of a large number of calculations. With the initial structures generated, the workflow proceeds as follows:
 
 ## 1.  Mult-It WaNo
 Input:
-- Configure the path containing `.tar` file with `POSCAR` structures.
+- Configure the path containing `.tar` file with initial structures.
 
 Output:
 - `file` command name files on the top of the AdvancedFor loop.
 
 ## 2. UnpackMol WaNo
 Input:
-- s
+- Configuration of the path containing `.tar` files with input from bom `Structures`.
 
 Ouput:
 - `POSCAR` files needed to DFT-VASP WaNo.
@@ -41,8 +41,8 @@ Ouput:
 ## 3. DFT-VASP WaNo
 Input:
 - **INCAR tab**: one sets all `INCAR` flags by selecting the popup window options.
-- **KPOINTS tab**: one defines two types of KPOINTS, `Kpoints_length` and `Kpoints_Monkhorst.`
-- **Analysis tab**: Aimed to compute charge analysis and density of states (DOS).
+- **KPOINTS tab**: one defines `KPOINTS` file, `Kpoints_length` and `Kpoints_Monkhorst.`
+- **Analysis tab**: Aimed to compute charge population and COHP analysis, and density of states (DOS).
 
 Ouput:
 - `OUTCAR` file.
