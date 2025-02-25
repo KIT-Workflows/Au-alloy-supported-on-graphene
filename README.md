@@ -62,7 +62,7 @@ Citing
 
 - BibTeX::
         
-    @article{DaSilva2025,
+    @article{DaSilva_2025,
         title = {Workflow-driven catalytic modulation from single-atom catalysts to Au–alloy clusters on graphene},
         volume = {15},
         ISSN = {2045-2322},
@@ -71,7 +71,7 @@ Citing
         number = {1},
         journal = {Scientific Reports},
         publisher = {Springer Science and Business Media LLC},
-        author = {Da Silva,  Gabriel Reynald and Cerqueira Felix,  João Paulo and R\^ego,  Celso R. C. and Dias,  Alexandre C. and de O. Bastos,  Carlos Maciel and Piotrowski,  Maurício J. and Guedes-Sobrinho,  Diego},
+        author = {Da Silva,  Gabriel Reynald and Cerqueira Felix,  João Paulo and Rego,  Celso R. C. and Dias,  Alexandre C. and de O. Bastos,  Carlos Maciel and Piotrowski,  Maurício J. and Guedes-Sobrinho,  Diego},
         year = {2025},
         month = jan
     }
