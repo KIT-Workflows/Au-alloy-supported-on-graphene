@@ -54,7 +54,7 @@ Input:
 Ouput:
 - `Table-dict.yml` containing the variables defined in the `Search_Parameters`.
 
-# Citing
+## Citing
 
 If you would like to cite this work, the following references can be used:
 
