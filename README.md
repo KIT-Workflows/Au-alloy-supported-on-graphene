@@ -58,6 +58,6 @@ Ouput:
   Developer: Celso Ricardo C. Rêgo, 
   Multiscale Materials Modelling and Virtual Design,
   Institute of Nanotechnology, Karlsruhe Institute of Technology (KIT)
-  https://www.int.kit.edu/wenzel.php
+  https://www.int.kit.edu/wenzel.php.
 
 Licensed under the [KIT License](LICENSE).
