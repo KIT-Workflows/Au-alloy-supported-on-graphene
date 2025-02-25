@@ -61,7 +61,7 @@ Citing
    following references can be used:
 
 - BibTeX::
-        
+```
     @article{DaSilva_2025,
         title = {Workflow-driven catalytic modulation from single-atom catalysts to Au–alloy clusters on graphene},
         volume = {15},
@@ -75,6 +75,7 @@ Citing
         year = {2025},
         month = jan
     }
+```
 
 ## License & Copyright
   Developer: Celso Ricardo C. Rêgo, 
