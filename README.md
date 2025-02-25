@@ -46,7 +46,7 @@ Input:
 
 Ouput:
 - `OUTCAR` file.
-## 4. DB-Generator
+## 4. DB-Generator WaNo
 Input:
 - **Imports tab**: `Search_in_File` variable should be set as `vasp_results.yml` and import this file using `AdvancedForEach/*/DFT-VASP/outputs/vasp_results.yml` command.
 - `Search_Parameters`: One sets variable to be search, as total energy and title.
