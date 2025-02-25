@@ -41,7 +41,7 @@ Ouput:
 ## 3. DFT-VASP WaNo
 Input:
 - **INCAR tab**: one sets all `INCAR` flags by selecting the popup window options.
-- **KPOINTS tab**: one defines `KPOINTS` file, `Kpoints_length` and `Kpoints_Monkhorst.`
+- **KPOINTS tab**: one defines `KPOINTS` file, `Kpoints_length` and `Kpoints_Monkhorst`.
 - **Analysis tab**: Aimed to compute charge population, COHP analysis, and density of states (DOS).
 
 Ouput:
@@ -52,7 +52,7 @@ Input:
 - `Search_Parameters`: One sets variable to be search, as total energy and title.
 
 Ouput:
-- `Table-dict.yml` containing the variables defined in the `Search_Parameters`
+- `Table-dict.yml` containing the variables defined in the `Search_Parameters`.
 
 ## License & Copyright
   Developer: Celso Ricardo C. Rêgo, 
